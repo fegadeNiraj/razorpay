@@ -8,7 +8,7 @@ import lombok.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "merchants", indexes = {
+@Table(name = "merchant", indexes = {
         @Index(name = "idx_merchant_status",columnList = "status")
 })
 @Getter
