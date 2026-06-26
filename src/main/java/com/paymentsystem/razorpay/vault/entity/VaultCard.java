@@ -18,7 +18,10 @@ public class VaultCard {
 
     @Column(nullable = false, length = 6)
     private String bin;
-    
+
+    @Column(nullable = false)
+    private byte[] encryptedPan;
+
     @Column(nullable = false)
     private byte[] encryptedDek;
 
